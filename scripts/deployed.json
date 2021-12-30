@@ -1,0 +1,8 @@
+{
+  "Counter": {
+    "rinkeby": { "address": "0x424077C841D096400Cc9E25dAd6860dBA079b98A" }
+  },
+  "Collection": {
+    "rinkeby": { "address": "0x8B3423904c0db7A4b1b79a8B0D16a9E3c28b8270" }
+  }
+}

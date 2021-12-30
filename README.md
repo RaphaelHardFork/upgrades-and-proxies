@@ -1,33 +1,8 @@
-# HardHat Project Template
+# Upgrade & Proxies
 
-## Incoming
+Exemple of Hardhat repository for deploying proxies contracts and upgrade them. Exemple with `Counter.sol` and `Collection.sol` which is an ERC1155.
 
-- exemple for upgradable contract tests and deployment
+Verified contract:
 
-## Dependency installed:
-
-- openzeppelin (with upgradable contracts and pluggins)
-- docgen
-- dotenv
-- prettier & eslint
-- hardhat-gas-reporter
-- hardhat-contract-sizer
-
-## Config for networks
-
-- BSC (mainnet & testnet)
-- Polygon (mainnet & testnet)
-
-## File template:
-
-- Contract.sol (smart contract intro)
-- Contract-test.js (tests syntax initiated)
-- Deployment Scripts
-- Post deployment scripts
-
-## To do:
-
-Create a `.env` with:
-
-- INFURA_PROJECT_ID
-- PRIVATE_KEY
+- [Counter.sol](https://rinkeby.etherscan.io/address/0x424077C841D096400Cc9E25dAd6860dBA079b98A)
+- [Collection.sol](https://rinkeby.etherscan.io/address/0x8B3423904c0db7A4b1b79a8B0D16a9E3c28b8270)

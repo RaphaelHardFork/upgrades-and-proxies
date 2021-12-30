@@ -1,6 +1,7 @@
 require('@openzeppelin/hardhat-upgrades')
 require('@nomiclabs/hardhat-waffle')
 require('@nomiclabs/hardhat-solhint')
+require('@nomiclabs/hardhat-etherscan')
 require('hardhat-docgen')
 require('hardhat-gas-reporter')
 require('hardhat-contract-sizer')
@@ -8,6 +9,7 @@ require('dotenv').config()
 
 const INFURA_PROJECT_ID = process.env.INFURA_PROJECT_ID
 const PRIVATE_KEY = process.env.PRIVATE_KEY
+const ETHERSCAN_KEY = process.env.ETHERSCAN_KEY
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -75,5 +77,8 @@ module.exports = {
     alphaSort: true,
     runOnCompile: false,
     disambiguatePaths: false,
+  },
+  etherscan: {
+    apiKey: ETHERSCAN_KEY,
   },
 }

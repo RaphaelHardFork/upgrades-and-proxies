@@ -5,8 +5,9 @@
     "mark-callable-contracts": "off",
     "no-empty-blocks": "off",
     "compiler-version": "off",
-    "private-vars-leading-underscore": "error",
+    "private-vars-leading-underscore": "off",
     "reason-string": "off",
+    "func-name-mixedcase": "off",
     "func-visibility": ["error", { "ignoreConstructors": true }]
   }
 }
