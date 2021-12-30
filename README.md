@@ -1,4 +1,4 @@
-# Upgrade & Proxies
+# Upgrades & Proxies
 
 Exemple of Hardhat repository for deploying proxies contracts and upgrade them. Exemple with `Counter.sol` and `Collection.sol` which is an ERC1155.
 
